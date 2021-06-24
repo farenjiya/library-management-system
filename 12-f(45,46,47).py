@@ -12,7 +12,7 @@ cursor.execute("create database if not exists LIBRARY_MANAGEMENT ")
 ashish_sir.commit()
 
 import mysql.connector as twelft_f
-vaibhav = twelft_f.connect(host="localhost", user = "root", passwd="vaibhav",database="LIBRARY_MANAGEMENT")
+vaibhav = twelft_f.connect(host="localhost", user = "root", passwd=v,database="LIBRARY_MANAGEMENT")
 
 if vaibhav.is_connected():
     print("Successfully Connected to LIBRARY_MANAGEMENT database")
